@@ -1,0 +1,89 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte e fundo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f3eef4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background: #ae59ee;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #612462; /* dourado ao passar o mouse */
+}
+
+/* Seções */
+section {
+    max-width: 800px;
+    margin: 40px auto;
+    background: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* Títulos */
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e863ff;
+}
+
+/* Parágrafos */
+section p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Rodapé */
+footer {
+    background: #ae59e7;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+
+/* Botões/links dentro de seção */
+section a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #bb63ff;
+    color: rgb(71, 20, 88);
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+section a:hover {
+    background: #8c2e95;
+}
