@@ -87,3 +87,23 @@ section a {
 section a:hover {
     background: #8c2e95;
 }
+/* Media Query para telemóveis e ecrãs pequenos */
+@media (max-width: 768px) {
+body {
+    padding: 10px;
+}
+
+section {
+    margin: 20px 10px;
+    padding: 20px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+header h1 {
+    font-size: 1.5em;
+}
+}
