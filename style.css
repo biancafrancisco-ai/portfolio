@@ -36,7 +36,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #612462; /* dourado ao passar o mouse */
+    color: #612462; 
 }
 
 /* Seções */
@@ -62,6 +62,36 @@ section p {
     text-align: justify;
 }
 
+/* Estilo dos cartões de projetos */
+.card-projeto {
+    background: #fdfbff;
+    border: 2px solid #e863ff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card-projeto h3 {
+    color: #ae59ee;
+    margin-bottom: 10px;
+}
+
+/* Botões/links dentro de seção e cartões */
+section a, .card-projeto a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #bb63ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+section a:hover, .card-projeto a:hover {
+    background: #8c2e95;
+}
+
 /* Rodapé */
 footer {
     background: #ae59e7;
@@ -72,38 +102,23 @@ footer {
     font-size: 0.9em;
 }
 
-/* Botões/links dentro de seção */
-section a {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
-    background: #bb63ff;
-    color: rgb(71, 20, 88);
-    text-decoration: none;
-    border-radius: 8px;
-    transition: background 0.3s;
-}
-
-section a:hover {
-    background: #8c2e95;
-}
 /* Media Query para telemóveis e ecrãs pequenos */
 @media (max-width: 768px) {
-body {
-    padding: 10px;
-}
+    body {
+        padding: 10px;
+    }
 
-section {
-    margin: 20px 10px;
-    padding: 20px;
-}
+    section {
+        margin: 20px 10px;
+        padding: 20px;
+    }
 
-nav a {
-    display: inline-block;
-    margin: 5px 10px;
-}
+    nav a {
+        display: inline-block;
+        margin: 5px 10px;
+    }
 
-header h1 {
-    font-size: 1.5em;
-}
+    header h1 {
+        font-size: 1.5em;
+    }
 }
